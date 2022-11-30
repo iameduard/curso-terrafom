@@ -5,4 +5,4 @@ sudo systemctl start docker
 
 #Agregar el usuario centos al grupo docker
 sudo groupadd docker
-sudo usermod -aG docker centos
+sudo usermod -aG docker ec2-user
